@@ -1,0 +1,131 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+body {
+    font-family:  sans-serif;
+    
+}
+.clear{ 
+    clear: both;
+}
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+header{
+    width: 100vw;
+    height: 70vh;
+    background-color: #eee;
+}
+.container .leftside{
+    float: left;
+    width: 45%;
+    margin-right: 20px;
+    position: relative;
+}
+
+.container .leftside h1{
+    color: #e64b1d;
+    padding: 70px 0 10px 0;
+    font-size: 2em;
+}
+.container .leftside p{
+    color:#a0a1a5;
+    line-height: 2.5;
+}
+
+.container .leftside span{
+    color:rgba(220, 120, 120, 0.4);
+    font-size: 10em;
+    font-weight: bolder;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+header .backdround-sec{
+    width: 50%;
+    height: 300px;
+    padding-top: 20px;
+    background-image: url(../images/pic1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    position: relative;
+}
+
+.sec2 {
+    margin-bottom: 10vh;
+    margin-top: 10%;
+  }
+  .cards {
+    display: flex;
+    text-transform: capitalize;
+    margin: 0 30px 50px 0;
+  }
+  .cards .card {
+    max-width: 30%;
+    margin: 0px 1.5vw;
+    background-color: rgba(240, 240, 240, 0.897);
+    padding: 1.5vw 1.5vw 0vw 1.5vw;
+  }
+.second-section {
+    width: 100%;
+    text-transform: capitalize;
+}
+.second-section h2 {
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+.cards .card p {
+    color: #999999;
+    font-size: 18px;
+}
+/* .cards{
+    width: 30%;
+    height: 480px;
+    background-color: #f8f7fd;
+    margin: 0 30px 50px 0;
+    float: left;
+    
+} */
+.cards img{
+    width: 85%;
+    height: 28vh;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.cards img:hover{
+    transform: scale(1.3,1.3);
+}
+
+.cards .author{
+    display: flex;
+    height: 13vh;
+}
+.cards .author .image{
+    width: 20%;
+    height: 13vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.cards .author .image img {
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+    justify-content: space-between;
+    border-radius: 50%
+  }
+  .cards .author .details {
+    width: 80%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    color: rgb(53, 49, 49);
+  }
